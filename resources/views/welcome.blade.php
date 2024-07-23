@@ -8,10 +8,8 @@
     </div>
 
     <div class="start-play">
-        a
+        <button class="btn"> <a href="{{ route('app.game', ["id" => $token]) }}"> თამაშის დაწყება </a></button>
     </div>
 </div>
 
 @include('layouts.footer')
-
-
